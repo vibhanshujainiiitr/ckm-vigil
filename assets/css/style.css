@@ -352,7 +352,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul {
   position: absolute;
-  width: 200px;
+  width: 350px;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   top: 40px;
