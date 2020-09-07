@@ -758,6 +758,7 @@ about
 }
 
 .features-item {
+  margin-bottom: 15px;
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
