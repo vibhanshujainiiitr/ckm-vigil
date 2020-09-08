@@ -1,0 +1,10 @@
+---
+layout: post
+title: C Krishna Mohan
+categories: member
+image: ckm.jpeg
+link:
+---
+Dr. C. Krishna Mohan is currently a Professor in the Department of Computer Science and Engineering and the Dean of Public and Corporate Relations at the Indian Institute of Technology Hyderabad (IIT Hyderabad), India. He has been with IIT Hyderabad since 2009. He was also the Head of the Department of Computer Science and Engineering, IIT Hyderabad from May 2010 till October 2014. Before joining IIT Hyderabad, he was a senior faculty member at the National Institute of Technology Karnataka, Surathkal (NITK Surathkal). He received his M.Tech from NITK Surathkal and Ph.D. from the Indian Institute of Technology Madras (IIT Madras).
+
+Prof Krishna Mohan heads Visual Learning and Intelligence Lab (VIGIL) at IIT Hyderabad working in the research areas of video content analysis, computer vision, machine learning, deep learning. He is a recipient of Excellence in Teaching Award, in recognition of distinguished teaching in the year 2018 at IIT Hyderabad. He has published more than 60 papers in peer-reviewed international journals and conferences proceedings. He has guided several Ph.D., Masters, and Undergraduate students. He has successfully carried out several projects with industry, government agencies, and academia. He serves as a reviewer for several reputed international conferences and IEEE journals and is a member of professional bodies like IEEE and ISTE.
