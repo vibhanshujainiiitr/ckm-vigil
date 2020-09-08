@@ -27,8 +27,8 @@ title: Technology
         {% assign technology = site.categories['technology'] %}
         {% for post in technology %}
         <div class="col-xl-4 col-lg-4 text-center">
-            <div class="card shadow" style="margin-right: 2%; margin-left: 2%; margin-top:10px; margin-bottom:10px; ">
-                <div style="padding-top:5%; padding-bottom: 5%;padding-right: 5%;padding-left: 5%;">
+            <div class="card shadow feature-box" style="margin-right: 2%; margin-left: 2%; margin-top:10px; margin-bottom:10px; ">
+                <div class="feature-box-inner" style="padding-top:5%; padding-bottom: 5%;padding-right: 5%;padding-left: 5%;">
                     <h3>{{post.title}}</h3>
                         {{post.content}}
                     <h5><a href="{{ post.url | absolute_url }}">More</a></h5>
@@ -39,4 +39,3 @@ title: Technology
         {% endfor %}    
     </div>
 </div>
-

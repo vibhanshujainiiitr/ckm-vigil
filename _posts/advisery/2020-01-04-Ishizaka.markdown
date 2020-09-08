@@ -1,0 +1,15 @@
+---
+layout: post
+title: Dr. Tetsuhiro Ishizaka
+categories: advisery
+image: Ishizaka.jpg
+link: 
+---
+Associate Professor,
+Transportation System
+Laboratory,
+Department of Transportation
+Engineering and Socio-
+Technology,
+College of Science and
+Technology, Nihon University

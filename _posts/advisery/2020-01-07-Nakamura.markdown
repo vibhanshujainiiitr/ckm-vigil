@@ -1,0 +1,13 @@
+---
+layout: post
+title: Yutaka Nakamura
+categories: advisery
+image: Nakamura.jpg
+link: 
+---
+Chief Specialist, System
+Technology Research &
+Development Center,
+Institute of Memory Technology
+Research & Development,
+KIOXIA Corporation

@@ -1,0 +1,9 @@
+---
+layout: post
+title: Dr. Tsutomu Tsuboi
+categories: advisery
+image: Tsutomu.jpg
+link: 
+---
+Tsutomu Tsuboi joined Hitachi from 1979 and worked as industrial motors designer until 1985, then Network product management of Semiconductor Div. from 1986 to 1997. He was the manager of Hitachi Semiconductor America Inc. from 1997 to 2000. He was the senior manager of Renesas Technology from 2003 to 2010.
+He was the senior manager of Smart City Div. of Hitachi Ltd. from 2010 to 2012. He was Project Director of Hamamatsu Agency for Innovation from 2012 to 2014. He is currently the general manager of the Global Business Development office in Nagoya Electric Works since 2014. He is IPSJ member and IEEE senior member.
