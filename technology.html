@@ -1,0 +1,42 @@
+---
+layout: default
+title: Technology
+---
+
+     <!-- Cubes animation part-starts -->
+  	    <ul class="animation-area">
+       	    <li></li>
+	        <li></li>
+    	    <li></li>
+    	    <li></li>
+    	    <li></li>
+    	    <li></li>
+  	    </ul>
+    <!-- Cubes animation part ended-->
+
+<div class="container">
+    
+    <div class="col-xl-12 col-lg-12">
+        <h1 class="text-center" style="padding-top: 100px;">Technology</h1>
+        <hr style="margin-left:auto; margin-right: auto; border: 2px solid blue; width:100px;">
+    </div>
+
+
+    <div class="row">
+
+        {% assign technology = site.categories['technology'] %}
+        {% for post in technology %}
+        <div class="col-xl-4 col-lg-4 text-center">
+            <div class="card shadow" style="margin-right: 2%; margin-left: 2%; margin-top:10px; margin-bottom:10px; ">
+                <div style="padding-top:5%; padding-bottom: 5%;padding-right: 5%;padding-left: 5%;">
+                    <h3>{{post.title}}</h3>
+                        {{post.content}}
+                    <h5><a href="{{ post.url | absolute_url }}">More</a></h5>
+                </div>
+                <img src="./assets/images/technology/{{post.image}}" width="100%"> 
+            </div>  
+        </div>
+        {% endfor %}    
+    </div>
+</div>
+
