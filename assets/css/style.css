@@ -1,10 +1,20 @@
-/*
+/* page scrollbar start */
+::-webkit-scrollbar {
+	width: 7px;
+}
 
-Lava Landing Page
+/* Track */
+::-webkit-scrollbar-track {
+	background: #c0c0c8;
+}
 
-https://templatemo.com/tm-540-lava-landing-page
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #1020ff;
+}
 
-*/
+/* page scrollbar end */
+
 
 /* ---------------------------------------------
 Table of contents
