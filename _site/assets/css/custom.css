@@ -1,4 +1,13 @@
 
+.page-heading {
+  background-image: url('../images/background/1.png');
+  color: white;
+  margin-left:0px;
+  margin-right:0px;
+  height: 200px;
+  font-family: 'Alegreya SC', serif;
+}
+
 /*===========Aninmation */
 .container_cover {
   width: 100%;

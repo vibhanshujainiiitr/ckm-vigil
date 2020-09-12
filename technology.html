@@ -3,25 +3,25 @@ layout: default
 title: Technology
 ---
 
-<div class="container">
-    
-    <div class="col-xl-12 col-lg-12">
-        <!--    <div id="particles"></div>
-            <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-            <script src="particles.js"></script>
-        -->           
-        <h1 class="text-center" style="padding-top: 100px;">Technology</h1>
-        <hr style="margin-left:auto; margin-right: auto; border: 2px solid blue; width:100px;">
-    </div>
+<div class="col-xl-12 col-lg-12 page-heading ">
+    <!--    <div id="particles"></div>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="particles.js"></script>
+    -->           
+    <h1 class="text-center" style="padding-top: 100px;font-family: 'Alegreya SC', serif;">Technology</h1>
+    <hr style="margin-left:auto; margin-right: auto; border: 2px solid blue; width:100px;">
+</div>
 
+<div class="container">
 
     <div class="row">
 
         {% assign technology = site.categories['technology'] %}
         {% for post in technology %}
+        
         <div class="col-xl-4 col-lg-4 text-center">
-            <div class="card shadow feature-box" style="margin-right: 2%; margin-left: 2%; margin-top:10px; margin-bottom:10px; ">
-                <div class="feature-box-inner" style="padding-top:5%; padding-bottom: 5%;padding-right: 5%;padding-left: 5%;">
+            <div class="card shadow feature-box" style="height:500px; margin-right: 2%; margin-left: 2%; margin-top:10px; margin-bottom:10px; ">
+                <div class="feature-box-inner" style="height:350px; padding-top:5%; padding-bottom: 5%;padding-right: 5%;padding-left: 5%;">
                     <h3>{{post.title}}</h3>
                         {{post.content}}
                     <h5><a href="{{ post.url | absolute_url }}">More</a></h5>
