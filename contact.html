@@ -3,35 +3,66 @@ layout: default
 title: Contact
 ---
 <div class="col-xl-12 col-lg-12 page-heading">
+    <!-- Cubes animation part-starts -->
+    <ul class="animation-area">
+        <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+   </ul>
+    <!-- Cubes animation part ended-->
     <h1 class="text-center" style="padding-top: 100px;font-family: 'Alegreya SC', serif;">{{page.title}}</h1>
-    <hr style="margin-left:auto; margin-right: auto; border: 2px solid blue; width:100px;">
 </div>
                   
+<div class="container" style="padding-top:20px">
+                <!-- Cubes animation part ended-->
+        <div class="row">
 
-                <!-- Cubes animation part ended--> 
+                <div class="col-lg-3"></div>
+
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="contact-form">
                         <form id="contact" action="https://formspree.io/xvowerjb" method="post">
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <fieldset>
-                                        <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                            style="background-color: rgba(250,250,250,0.3);">
+                                        <input name="first-name" type="text" id="first-name" placeholder="First Name" required=""
+                                            style="background-color: rgba(250,250,250,0.3); color:black">
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="last-name" type="text" id="last-name" placeholder="Last Name" required=""
+                                            style="background-color: rgba(250,250,250,0.3);color:black">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
                                     <fieldset>
                                         <input name="email" type="text" id="email" placeholder="E-Mail Address"
                                             required="" style="background-color: rgba(250,250,250,0.3);">
                                     </fieldset>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="phone" type="text" id="phone" placeholder="Phone Number"
+                                            required="" style="background-color: rgba(250,250,250,0.3); color:black">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input name="company" type="text" id="company" placeholder="Company"
+                                            required="" style="background-color: rgba(250,250,250,0.3); color:black">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
                                     <fieldset>
                                         <textarea name="message" rows="6" id="message" placeholder="Your Message"
                                             required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
                                     </fieldset>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-md-12">
                                     <fieldset>
                                         <button type="submit" id="form-submit" >Send Message
                                             Now</button>
@@ -42,5 +73,7 @@ title: Contact
                     </div>
                 </div>
 
+                <div class="col-lg-3"></div>
 
-
+        </div>
+</div>
