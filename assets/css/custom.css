@@ -1,5 +1,11 @@
+/*============= Button Gradient ============= */ 
 
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%); color:white}
+.btn-grad:hover { background-position: right center; }
+
+/* ============ Page Heading ================*/
 .page-heading {
+  padding-top:20px;
   /* background-image: url('../images/background/1.png'); */
   background: #E55D87;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
@@ -9,10 +15,6 @@
   margin-right:0px;
   height: 220px;
   font-family: 'Alegreya SC', serif;
-  .h1 {
-    padding-top:30px;
-    padding-bottom:30px;
-  }
 }
 
 /*===========Aninmation */
