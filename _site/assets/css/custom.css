@@ -1,6 +1,6 @@
 /*============= Button Gradient ============= */ 
 
-.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%); color:white}
+.btn-grad {background-image: linear-gradient(to right, #255779 0%, #26a0da 51%, #255779 100%); color:white}
 .btn-grad:hover { background-position: right center; }
 
 /* ============ Page Heading ================*/
