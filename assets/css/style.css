@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #707070;
   margin: 0 auto;
-  min-height: 600px%;
+  min-height: 600px;
   overflow: hidden;
   /*
   ul {
@@ -659,7 +659,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul {
   position: absolute;
-  width: 350px;
+  width: 250px;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   top: 40px;
