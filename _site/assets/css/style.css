@@ -1,3 +1,236 @@
+/** main-img **/
+.main-img {
+  position: relative;
+  width: 100%;
+  background-color: #707070;
+  margin: 0 auto;
+  min-height: 600px%;
+  overflow: hidden;
+  /*
+  ul {
+    li {
+      overflow: hidden;
+    }
+  }
+  */
+}
+@media screen and (max-width: 900px) {
+  .main-img {
+    min-height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img {
+    min-height: 300px;
+  }
+}
+.main-img .main-img-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #012B38;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.main-img .main-img-bg-cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
+.main-img .main-img-inner {
+  position: relative;
+  height: 100%;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 900px) {
+  .main-img .main-img-inner {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img .main-img-inner {
+    width: 414px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-img .main-img-inner {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.main-img .main-img-inner .main-h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Noto Sans Japanese";
+  font-weight: 200;
+  border-bottom: solid 1px #FFFFFF;
+}
+@media screen and (max-width: 900px) {
+  .main-img .main-img-inner .main-h1 {
+    font-size: 38px;
+    font-size: 3.8rem;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img .main-img-inner .main-h1 {
+    font-size: 28px;
+    font-size: 2.8rem;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-img .main-img-inner .main-h1 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+.main-img .main-img-inner .main-catchcopy {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Futura Light';
+}
+@media screen and (max-width: 900px) {
+  .main-img .main-img-inner .main-catchcopy {
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img .main-img-inner .main-catchcopy {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+.main-img .main-img-inner .main-text {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 900px) {
+  .main-img .main-img-inner .main-text {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img .main-img-inner .main-text {
+    text-align: left;
+  }
+}
+.main-img.detail-main-img {
+  min-height: 500px;
+}
+@media screen and (max-width: 900px) {
+  .main-img.detail-main-img {
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img.detail-main-img {
+    min-height: 220px;
+  }
+}
+.main-img.detail-main-img .main-img-bg.bg-service {
+  background-image: url(../img/bg-service.jpg);
+}
+.main-img.detail-main-img .main-img-bg.bg-corporate {
+  background-image: url(../img/bg-corporate.jpg);
+}
+.main-img.detail-main-img .main-img-bg.bg-edge-ai {
+  background-image: url(../img/bg-edge-ai.jpg);
+  background-position: top 20% left 50%;
+}
+.main-img.detail-main-img .main-img-inner .main-h1 {
+  font-size: 64px;
+  font-size: 6.4rem;
+  margin-top: 240px;
+  font-family: 'Futura Light';
+  border-bottom: none;
+}
+.main-img.detail-main-img .main-img-inner .main-h1.head-ja {
+  font-family: 'Noto Sans Japanese' , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-weight: 300;
+}
+@media screen and (max-width: 900px) {
+  .main-img.detail-main-img .main-img-inner .main-h1 {
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-img.detail-main-img .main-img-inner .main-h1 {
+    font-size: 48px;
+    font-size: 4.8rem;
+    margin-top: 106px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-img.detail-main-img .main-img-inner .main-h1 {
+    font-size: 32px;
+    font-size: 3.2rem;
+    margin-top: 116px;
+  }
+}
+
+body.site-en.home .main-img .main-img-inner {
+  width: 800px;
+}
+@media screen and (max-width: 900px) {
+  body.site-en.home .main-img .main-img-inner {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body.site-en.home .main-img .main-img-inner {
+    width: 414px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body.site-en.home .main-img .main-img-inner {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+body.site-en.home .main-img .main-img-inner .main-h1 {
+  border-bottom: none;
+  margin-top: 260px;
+  font-family: 'Futura Light';
+}
+@media screen and (max-width: 900px) {
+  body.site-en.home .main-img .main-img-inner .main-h1 {
+    margin-top: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body.site-en.home .main-img .main-img-inner .main-h1 {
+    margin-top: 130px;
+  }
+}
+
+
 /*================ HOVER CSS EFFECTS ================*/
 /* Glow */
 .hvr-glow {
